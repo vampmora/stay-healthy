@@ -140,7 +140,7 @@ p{
     color:#fff;
 }
 
-.btn::before{     /*again this 2 make the effect on hover*/
+.btn::before{     /*again this 2 make eff on hov*/   
     content: "";
     position: absolute;
     right: 0;
@@ -193,5 +193,13 @@ img{
     flex-wrap:wrap;
     max-width:100%;
     width: 200px;
+   }
+    
+     .content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
    }
 }
